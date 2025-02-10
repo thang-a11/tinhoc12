@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", serif;
+}
+ul {
+    /* text-decoration: none; */
+    list-style: none;
+}
+span {
+    background-color: #000;
+    padding: 1px 8px;
+    color: #fff;
+    border-radius: 4px;
+}
+i::before {
+    /* width: 20px; */
+    height: 14px;
+    display: block;
+}
+#header {
+    width: inherit;
+}
+#header .first-header {
+    background-color: #000;
+    color: #fff;
+    height: 42px;
+    overflow: hidden;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .first-header .first-header-items ul {
+    display: flex;
+}
+#header .first-header .first-header-items ul li {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 14px;
+    transition: 0.2s all;
+}
+/*  */
+.second-header {
+    height: calc(42px * 5);
+    position: relative;
+}
+.second-header .second-header-items {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* the zoo */
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Helvetica', 'Arial'; /* initial fonts */
+}
+#top-bar { 
+    width: 100%; 
+    background: #F1F1F1; /* light gray */ 
+    border-bottom: 1px solid #D4D4D4; /* dark gray "underline" */ 
+    height: 25px;
+}
+.normal-wrapper { 
+    width: 900px; 
+    margin: 0 auto; 
+    padding: 15px 40px; 
+    overflow: auto;
+    font-size: 16px;
+    background-color: #37f040;
+    background: fixed;
+}
+.logo-icon { 
+    color: #000000; 
+    font-size: 60pt; 
+    float: left;
+}
+h1 { 
+    float: left; 
+    margin: 21px 0 0 25px;
+}
+#navbar { 
+    list-style-type: none; /* remove bullet points */ 
+    margin: 29px 0 0 0; 
+    padding: 0; float: right; 
+    font-size: 16pt;
+}
+#navbar li { 
+    display: inline; /* make items horizontal */
+}
+#navbar li a:link, #navbar li a:visited, #navbar li a:active { 
+    text-decoration: none; /* remove underline */ 
+    color: #000000; 
+    padding: 0 16px 0 10px; /* space links apart */ 
+    margin: 0; 
+    border-right: 2px solid #B4B4B4; /* divider */
+}
+#navbar li a:link.last-link { 
+    /* remove divider */ 
+    border-right: 0px;
+}
+#navbar li a:hover { 
+    /* change color on hover (mouseover) */ 
+    color: #EB6361;
+}
+#top-color-splash { 
+    width: 100%; 
+    height: 4px; 
+    background: #EB6361;
+}
+.one-third { 
+    width: 40%; 
+    float: left; 
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */ 
+    margin-top: 20px;
+}
+.two-third { 
+    width: 60%; 
+    float: left; 
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */ 
+    padding-left: 40px; 
+    text-align: right; 
+    margin-top: 20px;
+}
+.featured-image { 
+    max-width: 500px; /* reduce image size while maintaining aspect ratio */
+}
+.no-margin-top { 
+    margin-top: 0; /* remove margin on things like headers */
+}
+#quote-area { 
+    background: #363636; 
+    color: #FFFFFF; 
+    text-align: center; 
+    padding: 15px 0;
+}
+h3 { 
+    font-weight: normal; 
+    font-size: 20pt; 
+    margin-top: 0px;
+}
+h4 { 
+    font-weight: normal; 
+    font-size: 16pt; 
+    margin-bottom: 0;
+}
+.icon-outer { 
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */ 
+    float: left; 
+    width: 33.33%; 
+    padding: 25px; 
+    margin: 0; 
+    text-align: center;
+}
+.icon-circle { 
+    background: #EEEEEE; 
+    color: #B4B4B4; 
+    width: 200px; 
+    height: 200px; 
+    border-radius: 200px; /* make rounded corners */ 
+    margin: 0 auto; 
+    border: 2px solid #D6D6D6; 
+    box-sizing: border-box; /* ensure padding and borders do not increase the size */ 
+    font-size: 75pt; 
+    padding: 30px 0 0 0; 
+    cursor: pointer;
+}
+.icon-circle:hover { 
+    /* change color on hover (mouseover) */ 
+    color: #FFFFFF; 
+    background: #EB6361;}
+h5 { 
+    margin: 15px 0 10px 0; 
+    font-size: 20pt;
+}
+a { 
+    color: #EB6361; 
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.cong-chua {
+    font-size: 16px;
+    box-sizing: border-box;
+    text-emphasis: none;
+}
+.loai-khi {
+    font-size: 16px;
+    box-sizing: border-box;
+    text-emphasis: none;
+}
