@@ -195,3 +195,9 @@ a {
     box-sizing: border-box;
     text-emphasis: none;
 }
+#content .content-1 h1 { 
+    width: 100%; 
+    background: #FFFFFF; 
+    padding: 20px 0; 
+    text-align: center;
+}

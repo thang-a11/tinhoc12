@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Tèo Loud 30",
+        "avatar": "img/teolo.jpg",
+        "age": "Không có tuổi",
+        "role": "Nhựa"
+    },
+    {
+        "id": "2",
+        "name": "Tuấn",
+        "avatar": "img/sigm.jpg",
+        "age": "17",
+        "role": "<span style='color: aqua'}>Admin</span>"
+    },
+    {
+        "id": "3",
+        "name": "#´",
+        "avatar": "img/ngo.jpg",
+        "age": "1",
+        "role": "Bạc"
+    },
+    {
+        "id": "3",
+        "name": "☆彡WAG✿BáC✿GấU彡☆",
+        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nP2q8DX2R_-EF4VeG9d-C7I-Vcz_yJz7l_rDxN4PBWwA=s900-c-k-c0x00ffffff-no-rj",
+        "age": "Chưa xác định",
+        "role": "<span style='background-color:yellow;color: #000 '}>Thách đấu 👑</span>"
+    },
+    {
+        "id": "4",
+        "name": "Thiên Lý",
+        "avatar": "img/thienli.jpg",
+        "age": "27",
+        "role": "Jack <img width='23px' src='./img/ja97.jpg'/>"
+    },
+    {
+        "id": "5",
+        "name": "<del>Tommy Xào Mỳ</del>",
+        "avatar": "img/tomxao.jpg",
+        "age": "40",
+        "role": "<span style='color: red '}>Banned 💀</span> <x title='Lí do ban: quá láo' style='cursor: pointer'>🛈</x"
+    }
+]
