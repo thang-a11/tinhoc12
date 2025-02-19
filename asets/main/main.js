@@ -5,7 +5,7 @@ function rep(id) {
 
 const fetchData = async () => {
     let member = [];
-    await fetch("https://60b6ad7c17d1dc0017b886f2.mockapi.io/api/member")
+    await fetch("person.json")
         .then((res) => res.json())
         .then((memberFetch) => {
             member = [...memberFetch];
